@@ -1,26 +1,26 @@
 class GitAgent < Formula
   desc "AI-powered git commit agent"
   homepage "https://github.com/GitAgentHQ/git-agent-cli"
-  version "0.4.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.4.0/git-agent-darwin-arm64.tar.gz"
-      sha256 "1c5dffd3fc8802182f4c4255f8da1ff366606b9ed1ec996b6440b5297c098e80"
+      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.5.1/git-agent-darwin-arm64.tar.gz"
+      sha256 "4a742c9abeb499bc381251b460503821356d9db52d91414941b250b79389fa9a"
     else
-      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.4.0/git-agent-darwin-amd64.tar.gz"
-      sha256 "f448f5aa11a5c6636f663758240183fba34e59ec2f69714358af2d22741c632a"
+      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.5.1/git-agent-darwin-amd64.tar.gz"
+      sha256 "f5f1b9efa6d07a56cdce6ef9d2ba9a2801d6297144688f6c52be5a8a111ee1ed"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.4.0/git-agent-linux-arm64.tar.gz"
-      sha256 "7eed842deacbe10bfcd7ab3e7fbdcf8ff4fa85814a101ea18ebc162be586bb5e"
+      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.5.1/git-agent-linux-arm64.tar.gz"
+      sha256 "a8ef939a8aeb433a1b99c6980a4276305faab0c49da91b4765b4cbab615f01a9"
     else
-      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.4.0/git-agent-linux-amd64.tar.gz"
-      sha256 "560e44eb9f3ecb965a32719688bd55459e0117f15a988465df33e4b81875d9b6"
+      url "https://github.com/GitAgentHQ/git-agent-cli/releases/download/v0.5.1/git-agent-linux-amd64.tar.gz"
+      sha256 "4a0ab12c54f4dc3a650964bcb0ae9b23e4d088defdcde03e440a61d03e5770d0"
     end
   end
 
